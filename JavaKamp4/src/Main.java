@@ -20,6 +20,11 @@ public class Main {
 		gameManager.Getall(games);
 		
 		
+		Sale sale=new Sale(1, "25152021710");
+		SaleManager saleManager=new SaleManager();
+		saleManager.Add(sale);
+		
+		
 	}
 
 }

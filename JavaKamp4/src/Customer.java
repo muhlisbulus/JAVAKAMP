@@ -39,6 +39,9 @@ public class Customer {
 	public void setBirthYear(String birthYear) {
 		this.birthYear = birthYear;
 	}
+	public String getTcNo() {
+		return TcNo;
+	}
 	public void setTcNo(String tcNo) {
 		TcNo = tcNo;
 	}

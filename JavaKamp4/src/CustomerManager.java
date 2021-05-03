@@ -1,5 +1,5 @@
 
-public class CustomerManager implements Logger  {
+public class CustomerManager implements PersonManager  {
 
 	void Add(Customer customer) {
 	
@@ -20,8 +20,11 @@ public class CustomerManager implements Logger  {
 		
 	}
 	@Override
-	public void log(String mesage) {
-		System.out.println("E devlet sistemine göre doðrulanan muþteri kayýdý yapýlmýþtýr" +mesage);
+	public boolean checkPerson(Customer customer) {
 		
+		
+		return false;
 	}
+	
+	
 }
